@@ -1,7 +1,7 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: monospace;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 200;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -13,24 +13,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* body {
+html,
+body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-} */
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
 
 .parent {
-  width: 100vw;
-  height: auto;
-  padding: 4rem;
+  width: 100%;
+  /* margin: 50px; */
+  /* padding: 4rem; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 60px;
-  grid-row-gap: 50px;
-  border: 1px solid red;
+  grid-column-gap: 50px;
+  grid-row-gap: 25px;
+  /* border: 1px solid red; */
 }
 
 .div1 {
