@@ -3,11 +3,16 @@ import React from "react";
 export default function Home() {
   return (
     <main class="parent">
+      <div class="div18">
+        <h1>
+          CSS + Pixel <br /> Playground
+        </h1>{" "}
+      </div>
+
       <div class="div1"> </div>
       <div class="div2"> </div>
       <div class="div3"> </div>
       <div class="div4"> </div>
-      <div class="div5"> </div>
       <div class="div6"> </div>
       <div class="div7"> </div>
       <div class="div8"> </div>
@@ -20,7 +25,6 @@ export default function Home() {
       <div class="div15"> </div>
       <div class="div16"> </div>
       <div class="div17"> </div>
-      <div class="div18"> </div>
     </main>
   );
 }
