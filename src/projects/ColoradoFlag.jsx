@@ -7,8 +7,9 @@ export default function ColoradoFlag() {
       <section className="background-top"></section>
       <section className="background-center"></section>
       <section className="background-bottom"></section>
-
       <section className="yellow-circle"></section>
+      <section className="red-circle"></section>
+      <section className="white-triangle"></section>
     </main>
   );
 }
