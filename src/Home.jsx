@@ -4,33 +4,33 @@ import ColoradoFlag from "./projects/ColoradoFlag";
 
 export default function Home() {
   return (
-    <main class="parent">
-      <div class="div18">
+    <main className="parent">
+      <div className="div18">
         <h1>
           CSS + Pixel <br /> Playground
         </h1>
       </div>
 
-      <div class="div1">
+      <div className="div1">
         <Link to="/coloradoFlag" element={<ColoradoFlag />}>
           Colorado
         </Link>
       </div>
-      <div class="div2"> </div>
-      <div class="div3"> </div>
-      <div class="div4"> </div>
-      <div class="div6"> </div>
-      <div class="div7"> </div>
-      <div class="div8"> </div>
-      <div class="div9"> </div>
-      <div class="div10"> </div>
-      <div class="div11"> </div>
-      <div class="div12"> </div>
-      <div class="div13"> </div>
-      <div class="div14"> </div>
-      <div class="div15"> </div>
-      <div class="div16"> </div>
-      <div class="div17"> </div>
+      <div className="div2"> </div>
+      <div className="div3"> </div>
+      <div className="div4"> </div>
+      <div className="div6"> </div>
+      <div className="div7"> </div>
+      <div className="div8"> </div>
+      <div className="div9"> </div>
+      <div className="div10"> </div>
+      <div className="div11"> </div>
+      <div className="div12"> </div>
+      <div className="div13"> </div>
+      <div className="div14"> </div>
+      <div className="div15"> </div>
+      <div className="div16"> </div>
+      <div className="div17"> </div>
     </main>
   );
 }

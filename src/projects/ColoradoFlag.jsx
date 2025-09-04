@@ -3,10 +3,12 @@ import "../styling/ColoradoFlag.css";
 
 export default function ColoradoFlag() {
   return (
-    <div>
-      <section className="background-top">hiiiiiiiii</section>
+    <main className="page-container">
+      <section className="background-top"></section>
       <section className="background-center"></section>
       <section className="background-bottom"></section>
-    </div>
+
+      <section className="yellow-circle"></section>
+    </main>
   );
 }
