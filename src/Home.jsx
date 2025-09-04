@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import ColoradoFlag from "./projects/ColoradoFlag";
 
 export default function Home() {
   return (
@@ -6,10 +8,14 @@ export default function Home() {
       <div class="div18">
         <h1>
           CSS + Pixel <br /> Playground
-        </h1>{" "}
+        </h1>
       </div>
 
-      <div class="div1"> </div>
+      <div class="div1">
+        <Link to="/coloradoFlag" element={<ColoradoFlag />}>
+          Colorado
+        </Link>
+      </div>
       <div class="div2"> </div>
       <div class="div3"> </div>
       <div class="div4"> </div>
