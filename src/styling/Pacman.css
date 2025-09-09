@@ -6,13 +6,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   gap: 30px;
 }
 
 .pacman {
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
   background-color: yellow;
 }
 
@@ -20,4 +21,28 @@
   width: 50px;
   height: 50px;
   background-color: white;
+}
+
+/* .ghost-container {
+} */
+
+.ghost-top {
+  width: 100px;
+  height: 110px;
+  border-radius: 100px;
+  border-top-left-radius: 90cm;
+  border-top-right-radius: 90cm;
+  background-color: rgb(33, 8, 255);
+}
+
+.ghost-bottom-container {
+  transform: translateY(-13px);
+  display: flex;
+  justify-content: space-between;
+}
+.ghost-bottom {
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+  background-color: blue;
 }
