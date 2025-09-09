@@ -1,4 +1,5 @@
 import React from "react";
+import "../styling/Pacman.css";
 
 export default function Pacman() {
   return (

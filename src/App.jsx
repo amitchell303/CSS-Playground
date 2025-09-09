@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./Home.jsx";
 import ColoradoFlag from "./projects/ColoradoFlag.jsx";
 import Loader from "./projects/Loader.jsx";
+import Pacman from "./projects/Pacman.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/coloradoFlag" element={<ColoradoFlag />} />
         <Route path="/loaderAnimation" element={<Loader />} />
+        <Route path="/pacman" element={<Pacman />} />
       </Routes>
     </>
   );

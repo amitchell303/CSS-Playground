@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ColoradoFlag from "./projects/ColoradoFlag";
+import Loader from "./projects/Loader";
+import Pacman from "./projects/Pacman";
 
 export default function Home() {
   return (
@@ -16,8 +18,16 @@ export default function Home() {
           Colorado
         </Link>
       </div>
-      <div className="div2"> </div>
-      <div className="div3"> </div>
+      <div className="div2">
+        <Link to="/loaderAnimation" element={<Loader />}>
+          Loader Animation
+        </Link>
+      </div>
+      <div className="div3">
+        <Link to="/pacman" element={<Pacman />}>
+          Pacman
+        </Link>
+      </div>
       <div className="div4"> </div>
       <div className="div6"> </div>
       <div className="div7"> </div>
