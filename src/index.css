@@ -22,9 +22,9 @@ body {
 }
 
 .parent {
-  max-width: 1200px;      
-  margin: 0 auto;          
-  padding: 4rem;          
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -40,17 +40,17 @@ body {
 }
 .div2 {
   grid-area: 2 / 2 / 3 / 3;
-  border: 1px solid rgb(0, 228, 245);
+  border: 1px solid #00ff85;
   padding: 1rem;
 }
 .div3 {
   grid-area: 2 / 3 / 3 / 4;
-  border: 1px solid rgb(21, 255, 0);
+  border: 1px solid #1e90ff;
   padding: 1rem;
 }
 .div4 {
   grid-area: 2 / 4 / 3 / 5;
-  border: 1px solid rgb(251, 0, 255);
+  border: 1px solid #ff0099;
   padding: 1rem;
 }
 .div6 {
@@ -60,12 +60,12 @@ body {
 }
 .div7 {
   grid-area: 3 / 2 / 4 / 3;
-  border: 1px solid rgb(0, 238, 255);
+  border: 1px solid #FFFFFF;
   padding: 1rem;
 }
 .div8 {
   grid-area: 3 / 3 / 4 / 4;
-  border: 1px solid red;
+  border: 1px solid #00ff85;
   padding: 1rem;
 }
 .div9 {
