@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import ColoradoFlag from "./projects/ColoradoFlag";
 import Loader from "./projects/Loader";
 import Pacman from "./projects/Pacman";
+import Backgrounds from "./projects/Backgrounds";
 
 export default function Home() {
   return (
@@ -28,7 +29,11 @@ export default function Home() {
           Pacman
         </Link>
       </div>
-      <div className="div4"> </div>
+      <div className="div4">
+        <Link to="/backgrounds" element={<Backgrounds />}>
+          Backgrounds
+        </Link>
+      </div>
       <div className="div6"> </div>
       <div className="div7"> </div>
       <div className="div8"> </div>
