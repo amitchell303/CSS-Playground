@@ -1,0 +1,93 @@
+/* Basic layout */
+.app {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a;
+  color: #f8fafc;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.app-header { text-align: center; margin-bottom: 20px; }
+.app-main { max-width: 900px; width: 100%; display: grid; gap: 20px; align-items: start; }
+
+/* Wheel container */
+.roulette-container {
+  position: relative;
+  width: 420px;
+  height: 420px;
+  margin: 0 auto;
+}
+
+/* Pointer */
+.pointer {
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  font-size: 28px;
+  pointer-events: none;
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+/* Wheel (circle) */
+.wheel {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+  transform-origin: 50% 50%;
+  /* transition set inline from component to control duration */
+}
+
+/* Each sector is a wedge using rotation & skew technique */
+.sector {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  top: 0;
+  transform-origin: 0% 50%;
+  /* the transform for placement is set inline from component */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+/* label placed inside each wedge */
+.sector-label {
+  width: 160%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(255,255,255,0.95);
+  padding-left: 12px;
+  pointer-events: none;
+}
+
+/* Controls and result area */
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.spin-btn {
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  padding: 12px 22px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  background: linear-gradient(180deg,#10b981,#059669);
+  color: white;
+  box-shadow: 0 6px
