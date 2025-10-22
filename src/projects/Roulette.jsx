@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import RouletteWheel from "./components/RouletteWheel";
+import RouletteWheel from "./components/RouletteComp.jsx";
 
 // example sectors (labels + color). You can change these.
 const DEFAULT_SECTORS = [
